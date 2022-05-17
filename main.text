@@ -1,0 +1,13 @@
+\documentclass [ a4paper ]{ artigo } 
+
+ \title {Tabuada}
+ \autor {Yan Damascena}
+ \data {Maio de 2022} 
+
+ \begin { documento } 
+
+ \maketitle 
+ \section { Tabela } 
+   \input { tabela.tex } 
+
+\end { documento }
