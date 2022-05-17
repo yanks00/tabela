@@ -6,10 +6,10 @@ void gerar_tabuada ( int );
 int main ( int argc, char *argv[]) { 
    base int ; 
 
-  if (argc == 2 ) 
+  if (argc == 10 ) 
     base = atoi (argv[ 1 ]); 
   senão 
-    base = 2 ; 
+    base = 10 ; 
 
   gerar_tabuada (base); 
   sair (EXIT_SUCCESS);
